@@ -160,3 +160,17 @@
 * 类型: String
 * 可选值: el-input / el-input-number / el-radio / el-checkbox / el-select / el-cascader / el-switch / el-slider / el-time-select / el-time-picker / el-date-picker / el-rate / el-color-picker / 自定义组件
 * 默认值: 无
+*
+*普通img：
+
+            component: {
+                            // name: "div",
+                            render: function (h, row) {
+                               return h("img", {
+                                    attrs: {
+                                        src: "//img.heanny.cn/"
+                                    }
+                                })
+                            }
+                        }
+
